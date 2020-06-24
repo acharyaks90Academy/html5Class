@@ -1,31 +1,74 @@
 <html>
     <head>
         <title>Order Here</title>
+        <style>
+          div  {
+                margin: 30px;
+                border: 2px silver;
+                color: rgb(0, 102, 255);
+                
+            }
+        </style>
     </head>
-    <body>
-        <div style="color: yellowgreen;background-color:whitesmoke;">
-            <h1>(Umed Dairy) Place your Order</h1>
-        </div>
-      
+    <body style="background-color:wheat;">
+        
+            <h1 style="background-color: slategrey;">Please Place your Order</h1>
+        
+        
         <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter Name">
-        </div>
-        <div>
-            <label for="ShippingAddress">Shipping Address</label>
-            <input type="text" id="ShippingAddress" name="ShippingAddress" placeholder="Enter Shipping Address">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Hemant Rajput">
         </div>
         <div>
-            <label for="pincode">Pincode</label>
-            <input type="number" id="pincode" name="pincode" placeholder="Enter Pincode">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" placeholder="hemantthakur1@gmail.com">
         </div>
         <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter Name">
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" name="Phone" placeholder="946-7468-458">
         </div>
         <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter Name">
+            <label for="address">Address</label>
+            <input type="address" id="address" name="address" placeholder="House no1296">
+        </div>
+        <div>
+            <label for="producttype">Product Type</label>
+            <select name="producttype" id="producttype">
+                <option value="buffalomilk">Buffalow Milk</option>
+                <option value="cowmilk">Cow Milk</option>
+                <option value="dahi">Dahi</option>
+                <option value="lassi">Lassi</option>
+                <option value="freshcream">Fresh cream</option>
+                <option value="ghee">Ghee</option>
+            </select>
+        </div>
+        <div>
+            <label for="productquantity">Product Quantity</label>
+            <select name="productquantity" id="productquantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </div>
+        <div>
+            <label for="paymentmethod">Payment Method</label>
+            <input type="radio" id="debitcard" name="paymentmethod">
+            <label for="debitcard">Debit Card</label>
+            <input type="radio" id="creditcard" name="paymentmethod">
+            <label for="creditcard">Credit Card</label>
+            <input type="radio" id="cod" name="paymentmethod">
+            <label for="cod">COD</label>
+        </div>
+        <div>
+            <input type="checkbox">
+            <label for="Shippingaddresssameasbilling">Shipping address same as billing</label>
+           
+        </div>
+        <div>
+            <button><a href="orderplaced.html">Continue</a></button>
         </div>
     </body>
 </html>
