@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Css Tags</title>
+
+        <style>
+            .a{
+                height: 100px;width: 100px;
+                border:solid pink 10px;
+                left: 45px;
+                position: relative;
+
+            }
+          .b  {
+                    height: 120px;width: 150px;
+                    border: solid blue 12px;
+                    right: 35px;
+                    position: relative;
+            }
+           .c {
+                height: 150px;width: 160px;
+                border: solid greenyellow 15px;
+                bottom: 20px;
+                position: relative;
+
+            }
+        .d{
+            height: 200px;width: 200px;
+            border: solid yellowgreen 20px;
+            right: 50px;
+            position: relative;
+            }
+            .modified{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50px;
+                font-weight: 1000;
+                color: tomato;
+                text-align: center;
+            }
+           .link:hover {
+                color: green;
+                font-size: 100px;
+            }
+
+            .my:focus{
+                    border: solid 5px yellow;
+            }
+ .mydetail::first-letter  {
+                            font-size: 200px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            I am first
+        </div>
+        <div class="b">
+            I am second
+        </div>
+        <div class="c">
+            I am third
+        </div>
+        <div class="d">
+            I am fourth
+        </div>
+        <div class="modified">
+            <p>Hello world my name is hemant thakur my age is 21 </p>
+        </div>
+        <div>
+            <button><a class="link" href="www.google.com">go</a></button>
+           
+        </div>
+        <div >
+            <input type ="text" class="my" id="test" name="test">
+        </div>
+        <div>
+            <p class="mydetail">Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element</p>
+        </div>
+    </body>
+</html>
