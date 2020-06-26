@@ -1,19 +1,62 @@
 <html>
     <head>
+        <title>Practise</title>
         <style>
-            div {
-                margin-top: 50px;
-                margin-bottom: 60px;
-                margin-left: 90px;
-                margin-right: 900px;
-                border-color: darkslategrey;
-                background-color: dimgrey;
+            .one{
+                text-shadow: 2px 2px black;
+            }
+            .two{
+                writing-mode: horizontal-tb;
+            }
+            .three{
+                writing-mode: vertical-lr;
+            }
+            .four{
+                writing-mode: vertical-rl;
+            }
+            .five{
+                writing-mode: horizontal-tb;
+            }
+            .six{
+                overflow: scroll;
+                width: 100px;
+                height: 100px;
+            }
+            .seven{
+                overflow: hidden;
+                width: 100px;
+                height: 100px;
+            }
+            .eight{
+                overflow: auto;
+                width: 100px;
+                height: 100px;
+            }
+            .nine{
+                overflow: visible;
+                height: 100px;
+                width: 100px;
+            }
+            .ten{
+                position: absolute;
+                left: 0px;right: 0px;
+                z-index:auto;
+                height: 100px;
+                width: 100px;
+                
             }
         </style>
-            <h1> Ready to Die</h1>
-            <div><p>this is death game.
-                Be carefully it may be risky.
-            </p>  </div>
-        
     </head>
+    <body>
+        <h1 class="one">My name is Hemant Rajput</h1>
+        <p class="two">Some text with default writing-mode.</p>
+        <p class="three">Some text with default writing-mode.</p>
+        <p class="four">Some text with <span class="five">default writing-mode.</span> </p>
+        <p class="six">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+        <p class="seven">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+        <p class="eight">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+        <p class="nine">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+        <img src="button.png" alt="button " class="ten">
+        <p>Because the image is in Z-index property</p>
+    </body>
 </html>

@@ -2,31 +2,51 @@
     <head>
         <title>Order Here</title>
         <style>
-          div  {
-                margin: 30px;
-                border: 2px silver;
-                color: rgb(0, 102, 255);
-                
+        .one{
+            background-color: gray;
+            font-family: sans-serif;
+            text-align: center;
             }
+
+        div{
+            height: 50px;width:404px;
+            left: 3px;top: 10px;
+            position: relative;
+            padding: 2px;
+            }
+        input {
+            width: 200px;
+        }
+
+        label {
+            width: 200px;
+            display: inline-block;
+        }
+
         </style>
+        
     </head>
-    <body style="background-color:wheat;">
+    <body style="background-color: whitesmoke;">
         
-            <h1 style="background-color: slategrey;">Please Place your Order</h1>
-        
+         
+            <h1 class="one">Please Place your Order</h1>
+          
         
         <div>
             <label for="fullname">Full Name</label>
             <input type="text" id="fullname" name="fullname" placeholder="Hemant Rajput">
         </div>
+       
         <div>
             <label for="email">E-Mail</label>
-            <input type="email" id="email" name="email" placeholder="hemantthakur1@gmail.com">
+            <input  type="email" id="email" name="email" placeholder="hemantthakur1@gmail.com">
         </div>
+        
         <div>
             <label for="phone">Phone</label>
             <input type="number" id="phone" name="Phone" placeholder="946-7468-458">
         </div>
+      
         <div>
             <label for="address">Address</label>
             <input type="address" id="address" name="address" placeholder="House no1296">
