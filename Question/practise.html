@@ -45,6 +45,57 @@
                 width: 100px;
                 
             }
+            .eleven{
+                border:solid 4px black; 
+                height: 150px; width: 150px;
+                 position: relative;
+                  border-radius: 100px;
+                  overflow:hidden;
+                  background-color: aqua;
+            }
+            .twelve{
+                border: solid 4px black;
+                 height: 150px;
+                 width: 150px; 
+                 left: 100px;
+                  bottom:0px;
+                  position: absolute; 
+                  border-radius: 100px;
+            }
+            .thirteen{
+                border: solid 4px black; 
+                height: 150px;
+                width: 150px; 
+                left: 50px; bottom: 0px; 
+                position: absolute;
+                 border-radius: 100px;
+            }
+            .fourteen{
+                height: 100;width: 150;
+                border: solid 4px red;
+                background-color: violet;
+                position: relative;
+                z-index: 3;
+            }
+            .fifteen{
+                height: 100;width: 150;
+                border: solid 4px blueviolet;
+                background-color: turquoise;
+                left: 30px; 
+                top: 15px;
+                position: absolute;
+                z-index: 2;
+            }
+            .sixteen{
+                height: 100;width: 150;
+                border: solid 4px yellowgreen;
+                background-color: tomato;
+                left: 50px; 
+                top: 30px;
+                position: absolute;
+                z-index: 1;
+              
+            }
         </style>
     </head>
     <body>
@@ -58,5 +109,24 @@
         <p class="nine">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
         <img src="button.png" alt="button " class="ten">
         <p>Because the image is in Z-index property</p>
+        <div style="height: 50px;">
+
+        </div>
+
+        <div class="eleven">
+            <div class="twelve">
+
+            </div>
+            <div class="thirteen">
+    
+            </div>
+        </div>
+        <div class="fourteen">
+            <div class="fifteen"></div>
+
+            <div class="sixteen"></div>
+        </div>
+       
+       
     </body>
 </html>
