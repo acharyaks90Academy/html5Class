@@ -22,10 +22,13 @@
         .h3
             {
                 writing-mode: horizontal-tb;
+                color: #ff0000;
             }
         .h4
             {
                 writing-mode: vertical-lr;
+                color: rgb(255, 25,255);
+                transform: rotate(240deg);
             }
         .h5
             {
@@ -35,8 +38,71 @@
             {
                 position: absolute;
                 left: 0px;
-                z-index: -1px;
+                z-index: -1;
             }
+        .h7
+            {
+                border: 4px solid red;
+                height: 400px;width: 400px;
+                box-shadow: 4px 4px 8px 6px red;
+                position: relative;
+                left: 800px;
+                background-color:#ffffff;
+                z-index:3;
+                opacity: 1;
+            }
+        .h8
+            {
+                border: 4px solid red;
+                height: 400px;width: 400px;
+                box-shadow: 4px 4px 8px 6px red;
+                z-index:1;
+                right: 40px;bottom: 40px;
+                position: absolute;
+                background-color: lawngreen;
+                opacity: 0.2;
+            }
+        .h9
+            {
+                border: 4px solid red;
+                height: 400px;width: 400px;
+                box-shadow: 4px 4px 8px 6px red;
+                position: absolute;
+                bottom: 80px; right: 80px;
+                background-color: lightgreen;
+                z-index: 3;
+                opacity: 0.5;
+            }
+        .line
+            {
+                line height: 1.6;
+            }
+    body
+        {
+            background-color: brown;
+        }
+        @media screen and ( min-width: 800px;)
+        {
+            body{
+                background-color: darkorange;
+                }
+
+            
+        }
+    #mydiv
+        {
+            -ms-transform: rotate(-25deg);
+            transform: rotate(-5deg);
+        }
+    div
+        {
+            background-color: coral;
+            height: 300px;
+            width: 250px;
+            border: 4px solid black;
+        }   
+        
+
     </style>
 </head>
 <body>
@@ -48,6 +114,33 @@
     <p class="h5"> sita was<span class="h3"> the wife</span> of Rama</p>
     <img src="site.jpeg"  class="h6" height="100px" width="100px">
     <p>Krishna REsidency of Faridabad is the best residency of faridabad</p>
+    <div class="h7"><p></p>
+        <div class="h8">
+        <p></p>
+        </div>
+        <div class="h9">
+            <p></p>
+        </div>
+        <h2>Practise of Line Height</h2>
+        <div class="mydiv">This element is used to giving height of line.</div>
+        <div>By this element we gave a suitable height that we want.
+        </div>
+    </div>
+    <div>
+        jai shree Ram!
+    </div>
+    <div class="display">
+        Jai Mata DI
+    </div>
+    <div>
+        Jai Ravan kii
+    </div>
+    <div>
+        <img class="col-1" src="house.jpg" alt="house">
+    </div>
+    <div>
+        <img src="background.jpg" alt="building">
+    </div>
 
     
 </body>
