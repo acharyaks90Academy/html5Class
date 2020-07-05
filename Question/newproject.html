@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(background.jpg);
+           
+            
+        }
+        @media screen and (max-width:750px){
+   body{
+        background-color: blueviolet;
+        height: 667px;
+        width: 375px;
+    }        
+}
+        .one{
+            height: 400px;
+            width: 500px;
+            position: relative;
+            top: 100px;
+            left: 470px;
+        }
+        .two{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            color: white;
+            opacity: 0.9;
+        }
+        .three{
+            height: 30px;
+            width: 360px;
+            border-radius: 5px;
+            position:absolute;
+            top: 120px;
+            left: 20px;
+            opacity: 0.7;
+            
+        }
+        .four{
+            height: 30px;
+            width: 360px;
+            border-radius: 5px;
+            position: absolute;
+            top: 180px;
+            left: 20px;
+            opacity: 0.7;
+        }
+        .five{
+            height: 40px;
+            width: 180px;
+            background-color: orangered;
+            position: absolute;
+            top: 230px;
+            left: 20px;
+            border-radius: 5px;
+            opacity: 0.9;
+        }
+        .six{
+            height: 40px;
+            width: 180px;
+            background-color: burlywood;
+            position: absolute;
+            top:230px;
+            left: 205px;
+            border-radius: 5px;
+            opacity: 0.9;
+        }
+        button:hover{
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            <H3>LOGIN</H1>
+        </div>
+        <div>
+            <input type="email" name="email" id="email" placeholder="E-mail" required class="three">
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password" required class="four">
+        </div>
+        <div>
+            <button class="five">Register</button>
+            <button class="six">Sign In</button>
+        </div>
+            
+        
+    </div>
+</body>
+</html>
