@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multipleof_5</title>
+</head>
+<body>
+    <h2>Multiple of 5 or Not</h2>
+    <input id="multi" name="searchbox" type="number" placeholder="--0000--">
+    <button onclick="myfunction()">submit</button>
+    <Span id="demo"></Span>
+    <script>
+        function myfunction() {
+            a =  document.getElementById("multi").value;
+            var output;
+            if (a%5==0){
+                document.getElementById("demo").innerHTML="Yes"
+            }
+            else{
+                document.getElementById("demo").innerHTML="NO"
+            }
+        }
+        
+    </script>
+    
+</body>
+</html>

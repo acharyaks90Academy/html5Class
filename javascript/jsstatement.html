@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js_demo</title>
+
+</head>
+<body style="background-color: blanchedalmond;">
+    <h2>Enter Your Age</h2>
+    <input id="ageid" name="searchbox" type="number" placeholder="enter your age ">
+    <button onclick="myfunction()">Submit</button>
+    <span id="demo"></span>
+    <script>
+        function myfunction() {
+             a = document.getElementById("ageid").value;
+            var output;
+            if (a >18) {
+                a = document.getElementById("demo").innerHTML = "you are eligiable ";
+            } else {
+                a = document.getElementById("demo").innerHTML = "you are not eligiable ";
+            }
+
+        }
+
+    </script>
+</body>
+</html>
